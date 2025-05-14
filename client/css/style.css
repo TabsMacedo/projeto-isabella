@@ -1,0 +1,61 @@
+/* variável de cor: 5 cores: */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --primaryColor: hsl(243, 87%, 12%);
+  --secondColor: hsl(238, 22%, 44%);
+  --accentColor: hsl(224, 93%, 58%);
+  --accentSecondColor: hsl(170, 45%, 43%);
+  --primarySection: hsl(240, 75%, 98%);
+  --secondSection: hsl(0, 0%, 75%);
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 65px 80px 86px 80px;
+}
+.menu{
+  /* ativar o flexbox */
+  /* o display flex automaticamente coloca os itens da caixa em linha */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-items{
+  list-style: none;
+  display: flex;
+  gap: 56px;
+}
+
+.menu-items li a{
+  text-decoration: none;
+  color: var(--primaryColor);
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.header{
+  background-color: blueviolet;
+  display: flex;
+}
+.header-describe{
+  background-color: aqua;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.header-describe h1{
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  color: var(--primaryColor);
+  line-height: 60px;
+  font-weight: 700;
+}
+.header-submit input{
+  padding: 14px 172px 12px 21px;
+}
+.header img{
+  width: 50%;
+}

@@ -1,23 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastro de usuários</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Fylo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <form id="form" method="POST">
-    <input id="input-name" type="text" placeholder="Digite seu nome">
-    <input id="input-email" type="email" placeholder="Digite seu e-mail">
-    <input id="input-password" type="password" placeholder="Digite sua senha">
-    <button type="submit">CADASTRAR</button>
-  </form>
- 
-<!-- teste -->
-
+  <nav class="menu">
+    <img class="menu-img" src="./images/logo.svg" alt="">
+    <ul class="menu-items">
+      <li><a class="items-title" href="#">Features</a></li>
+      <li><a class="items-title" href="#">Team</a></li>
+      <li><a class="items-title" href="#">Sign in</a></li>
+    </ul>
+  </nav>
+  <header class="container-hero">
+    <div class="hero-info">
+      <h1 class="hero-title">All your files in one secure location, accessible anywhere.</h1>
+      <p class="hero-descr">Fylo stores your most important files in one secure location. Access them wherever you need,
+        share and collaborate with friends, family, and co-workers.</p>
+      <span class="hero-submit">
+        <input class="submit-input" placeholder="Enter your e-mail...">
+        <button class="submit-button">Get Started</button>
+      </span>
+    </div>
+    <img class="hero-img" src="./images/illustration-1.svg">
+  </header>
+  <section class="container-productive">
+    <div class="productive">
+      <h2 class="productive-title">Stay productive, wherever you are</h2>
+      <p class="productive-descr">Never let location be an issue when accessing your files. Fylo has you covered for all
+        of your file storage needs.</p>
+      <p class="productive-descr">Securely share files and folders with friends, family and colleagues for live
+        collaboration. No email attachments required!</p>
+      <span class="productive-link">
+        <a class="link-item" href="#">See how Fylo works</a>
+        <img src="./images/icon-arrow.svg" alt="">
+      </span>
+      <img class="founder-img" src="./images/founder.svg" alt="">
+    </div>
+    <img class="productive-img" src="./images/illustration-2.svg" alt="">
+  </section>
   <script src="./script.js"></script>
 </body>
 

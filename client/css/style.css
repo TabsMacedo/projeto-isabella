@@ -95,9 +95,13 @@ body{
 
 .container-productive{
   display: flex;
+  position: relative;
   align-items: center;
   background-color: #f8f8fe;
   padding: 178px 80px 160px 80px;
+}
+.container-productive img{
+  position: absolute;
 }
 .productive{
   display: flex;
@@ -119,7 +123,6 @@ body{
   margin-bottom: 16px;
 }
 .productive-link{
-  background-color: aqua;
   margin-bottom: 45px;
 }
 .link-item{
@@ -127,7 +130,6 @@ body{
 }
 
 .founder-img{
-  background-color: #585989;
   margin: 0;
 }
 
@@ -135,4 +137,86 @@ body{
   width: 542px;
   height: 406px;
 }
-/* oiii */
+.container-cta{
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--secondColor);
+}
+.cta-items{
+  display: flex;
+  flex-direction: column;
+  color: var(--primarySection);
+}
+.cta-title{
+  font-family: "Raleway", sans-serif; 
+  width: 346px;
+  height: 48px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  padding: 17px;
+  margin-top: 100px;
+}
+.cta-descr{
+  width: 533px;
+  height: 72px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 132px;
+}
+.cta-submit{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cta-input{
+  width: 480px;
+  height: 48px;
+  margin-top: 112px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 2px;
+}
+.cta-input::placeholder{
+  font-family: "Raleway", sans-serif; 
+  color: #C0C0C0;
+  width: 234px;
+  height: 14px;
+  font-weight: 12;
+  padding: 22px;
+}
+.cta-button{
+  font-family: "Raleway", sans-serif;
+  width: 200px;
+  height: 48px;
+  background-color: var(--accentColor);
+  color: var(--primarySection);
+  border: none;
+  border-radius: 2px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primaryColor);
+}
+.footer-contact{
+  color: var(--primarySection);
+}
+.footer-img{
+  width: 135px;
+  height: 39px;
+  padding-bottom: 36px;
+  margin-top: 92px;
+}
+.footer-phone{
+
+}
+.footer-email{
+
+}
+.footer-us{
+  background-color: brown;
+}
+.footer-social{
+  background-color: burlywood;
+}

@@ -108,7 +108,7 @@ body{
 .img-curve{
   width: 100%;
   position: absolute;
-  top: -70px;
+  top: -90px;
   left: 0; 
 }
 
@@ -155,8 +155,9 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding: 100px 120px 132px 80px;
-  gap: 227px;
+  gap: 127px;
   background-color: var(--secondColor);
 }
 
@@ -216,34 +217,36 @@ body{
 .footer{
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   background-color: var(--primaryColor);
   color: var(--primarySection);
   padding: 92px 261px 86px 80px;
 }
 
 .footer-contact{
-
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-img{
-
-
+  width: 139px;
+  height: 39px;
+  margin-bottom: 36px;
 }
 
-.footer-phone{
-
-}
-
-.footer-email{
-
+.footer-phone, .footer-email{
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-us{
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   gap: 16px;
 }
 
 .footer-social{
+
 }

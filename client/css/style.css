@@ -12,6 +12,10 @@
    font-family: "Open Sans", sans-serif;
 */
 
+html{
+  overflow-x: hidden;
+}
+
 body{
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -97,18 +101,24 @@ body{
   display: flex;
   position: relative;
   align-items: center;
-  background-color: #f8f8fe;
-  padding: 178px 80px 160px 80px;
+  background-color: #f6f6fe;
+  padding: 92px 80px 160px 80px;
 }
-.container-productive img{
+
+.img-curve{
+  width: 100%;
   position: absolute;
+  top: -70px;
+  left: 0; 
 }
+
 .productive{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
+
 .productive-title{
   font-family: "Raleway", sans-serif;
   font-size: 40px;
@@ -116,15 +126,18 @@ body{
   color: var(--primaryColor);
   margin-bottom: 38px;
 }
+
 .productive-descr{
   font-size: 16px;
   line-height: 24px;
   color: var(--primaryColor);
   margin-bottom: 16px;
 }
+
 .productive-link{
   margin-bottom: 45px;
 }
+
 .link-item{
   color: var(--accentSecondColor);
 }
@@ -137,54 +150,58 @@ body{
   width: 542px;
   height: 406px;
 }
+
 .container-cta{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  padding: 100px 120px 132px 80px;
+  gap: 227px;
   background-color: var(--secondColor);
 }
+
 .cta-items{
   display: flex;
   flex-direction: column;
   color: var(--primarySection);
+  text-align: left;
+  gap: 17px;
 }
+
 .cta-title{
   font-family: "Raleway", sans-serif; 
-  width: 346px;
-  height: 48px;
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
-  padding: 17px;
-  margin-top: 100px;
 }
+
 .cta-descr{
   width: 533px;
-  height: 72px;
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 132px;
 }
+
 .cta-submit{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 16px;
 }
+
 .cta-input{
-  width: 480px;
-  height: 48px;
-  margin-top: 112px;
-  margin-bottom: 16px;
+  padding: 16px 224px 18px 22px;
   border: none;
   border-radius: 2px;
 }
+
 .cta-input::placeholder{
   font-family: "Raleway", sans-serif; 
   color: #C0C0C0;
   width: 234px;
   height: 14px;
   font-weight: 12;
-  padding: 22px;
 }
+
 .cta-button{
   font-family: "Raleway", sans-serif;
   width: 200px;
@@ -192,31 +209,41 @@ body{
   background-color: var(--accentColor);
   color: var(--primarySection);
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
+  box-shadow: 1px 4px 6px 1px rgba(51, 51, 51, 0.314);
 }
+
 .footer{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: var(--primaryColor);
-}
-.footer-contact{
   color: var(--primarySection);
+  padding: 92px 261px 86px 80px;
 }
+
+.footer-contact{
+
+}
+
 .footer-img{
-  width: 135px;
-  height: 39px;
-  padding-bottom: 36px;
-  margin-top: 92px;
+
+
 }
+
 .footer-phone{
 
 }
+
 .footer-email{
 
 }
+
 .footer-us{
-  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
+
 .footer-social{
-  background-color: burlywood;
 }
